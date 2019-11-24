@@ -1,6 +1,6 @@
 {
   "name": "flowai-react-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple React CLI that aims to speed up development by generating desired React component",
   "repository": {
     "type": "git",

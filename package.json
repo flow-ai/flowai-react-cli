@@ -20,7 +20,7 @@
   "author": "Nikita Balashov <nikita.balashov@flow.ai>",
   "preferGlobal": true,
   "bin": {
-    "flowai-react-cli": "src/index.js"
+    "flowai-react-cli": "lib/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

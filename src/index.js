@@ -1,4 +1,4 @@
-import pjson from '../package.json';
+const pjson = require('../package.json');
 
 const
   args = process.argv.slice(2),

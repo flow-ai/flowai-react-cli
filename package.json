@@ -2,11 +2,6 @@
   "name": "flowai-react-cli",
   "version": "1.0.3",
   "description": "Simple React CLI that aims to speed up development by generating desired React component",
-  "scripts": {
-    "lint": "eslint src",
-    "clean": "rimraf lib",
-    "build": "npm run clean && babel src --out-dir lib"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/flow-ai/flowai-react-cli.git"
@@ -22,15 +17,5 @@
   "preferGlobal": true,
   "bin": {
     "flowai-react-cli": "lib/index.js"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.0.3",
-    "babel-plugin-array-includes": "^2.0.3",
-    "babel-preset-es2015": "^6.24.1",
-    "eslint": "^6.7.0",
-    "express": "^4.17.1",
-    "rimraf": "^3.0.0"
   }
 }

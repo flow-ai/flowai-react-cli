@@ -1,6 +1,6 @@
 {
   "name": "flowai-react-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple React CLI that aims to speed up development by generating desired React component",
   "scripts": {
     "lint": "eslint src",
@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "keywords": [
+    "flowai",
     "react",
     "cli",
     "component"
